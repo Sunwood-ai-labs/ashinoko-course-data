@@ -4,9 +4,36 @@
 
 The independently maintained course pack for [KUROTORA DRIVE](https://github.com/Sunwood-ai-labs/ashinoko-kurotora-drive): approximately 25.03 km of route data, scenery, vegetation, schemas, provenance and a renderer-independent data contract. The car, controls, physics and playable site belong to the game repository.
 
-![Blender course production preview](docs/assets/blender-course-preview.png)
+![Lake and mountain panorama — Blender](docs/assets/gallery/lake-panorama.jpg)
 
-*Blender production preview, not a screenshot of the running browser game. Browser materials and level of detail differ. 3D browser rendering and frame rates remain unverified.*
+*Lake and mountain panorama · Base-model landscape study. Actual Blender render. Browser materials and level of detail differ.*
+
+## 🏞️ Explore the course in eight views
+
+From a lakeside panorama to the bolts on a guardrail, each view shows a different scale of the project. Eight images including the cover.
+
+All images are actual Blender production renders, not browser-game screenshots. Captions distinguish the base study, v3 detail sector and v4 route QA. Images retain their original dimensions; larger views use JPEG delivery copies. [Image sources and capture notes](docs/GALLERY.md).
+
+| | |
+|:---|:---|
+| ![Climbing through the S-bend — Blender](docs/assets/gallery/skyline-curve.jpg) | ![Details at road level — Blender](docs/assets/gallery/roadside-detail.jpg) |
+| **Climbing through the S-bend**<br>An outside camera reveals the road ribbon, gradient and forest edge.<br><sub>v3 western detail sector</sub> | **Details at road level**<br>Corrugated guardrail, bolts, drainage channel, stonework and ground cover.<br><sub>v3 western detail sector</sub> |
+
+| | |
+|:---|:---|
+| ![The forest bend — Blender](docs/assets/gallery/forest-bend-v4.png) | ![Road above the water — Blender](docs/assets/gallery/lake-road-v4.png) |
+| **The forest bend**<br>A lower viewpoint follows the curved guardrail around the hillside.<br><sub>v4 route QA · 6 km camera</sub> | **Road above the water**<br>The road opens toward glimpses of blue water through the trees.<br><sub>v4 route QA · 12 km camera</sub> |
+
+| | |
+|:---|:---|
+| ![Climbing into town — Blender](docs/assets/gallery/town-climb-v4.png) | ![Between the hills — Blender](docs/assets/gallery/ridge-descent-v4.png) |
+| **Climbing into town**<br>Windowed buildings and a rising road change the rhythm of the landscape.<br><sub>v4 route QA · 21 km camera</sub> | **Between the hills**<br>Longer sightlines show the road threading between slopes and trees.<br><sub>v4 route QA · 9 km camera</sub> |
+
+![The whole loop — Blender](docs/assets/gallery/course-overview.jpg)
+
+**The whole loop**<br>A raised route line makes the lake, terrain and closed circuit easy to read.<br><sub>Base-model overview · earlier 25.04 km plan; current route: 25.03 km</sub>
+
+Terrain: Geospatial Information Authority of Japan. Map-derived features: © OpenStreetMap contributors. Artistic reconstruction; see [sources and rights](docs/DATA.md).
 
 ## 📦 Repositories and versions
 
