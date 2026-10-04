@@ -1,0 +1,22 @@
+{
+  "name": "ashinoko-course-data",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Versioned Ashinoko GT course pack, data contract, provenance and validation tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sunwood-ai-labs/ashinoko-course-data.git"
+  },
+  "scripts": {
+    "test": "node scripts/test-course-contract.mjs . && npm run course:validate && npm run release:validate && node scripts/check-docs.mjs && node scripts/test-course-release.mjs",
+    "course:validate": "node scripts/course-pack.mjs --assets-dir assets --runtime course-loader.mjs",
+    "course:checksums": "node scripts/course-pack.mjs --assets-dir assets --runtime course-loader.mjs --write",
+    "release:validate": "node scripts/course-release.mjs",
+    "release:checksums": "node scripts/course-release.mjs --write",
+    "release:export": "node scripts/course-release.mjs --export"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
